@@ -28,7 +28,7 @@ struct buttonView: View {
                     .padding()
                     .background(Color.green)
                     .clipShape(Capsule())
-                    .overlay(Capsule().stroke(Color.pink, lineWidth: 5))
+                    .overlay(Capsule().stroke(Color.pink, lineWidth: 2))
                 }
             }
         }

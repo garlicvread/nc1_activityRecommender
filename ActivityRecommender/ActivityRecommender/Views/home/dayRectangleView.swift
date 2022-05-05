@@ -23,7 +23,7 @@ struct dayRectangleView: View {
                         .frame(width: 30, height: 30)
                     
                     RoundedRectangle(cornerRadius: 10)
-                        .stroke(Color.gray, lineWidth: 3)
+                        .stroke(Color.gray, lineWidth: 1)
                         .frame(width: 30, height: 30)
                 }
                 
@@ -42,7 +42,7 @@ struct dayRectangleView: View {
                             .frame(width: 30, height: 30)
                         
                         RoundedRectangle(cornerRadius: 10)
-                            .stroke(Color.gray, lineWidth: 3)
+                            .stroke(Color.gray, lineWidth: 1)
                             .frame(width: 30, height: 30)
                     }
                     
