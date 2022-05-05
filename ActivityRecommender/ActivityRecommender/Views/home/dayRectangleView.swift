@@ -14,8 +14,8 @@ struct dayRectangleView: View {
         
         if (wasHit == false) {
             HStack {
-                Spacer()
-                    .frame(width: 10, height: 20)
+//                Spacer()
+//                    .frame(width: 10, height: 20)
                 
                 ZStack {
                     RoundedRectangle(cornerRadius: 10)
@@ -27,14 +27,14 @@ struct dayRectangleView: View {
                         .frame(width: 30, height: 30)
                 }
                 
-                Spacer()
-                    .frame(width: 10, height: 20)
+//                Spacer()
+//                    .frame(width: 10, height: 20)
             }
         } else {
             VStack {
                 HStack {
-                    Spacer()
-                        .frame(width: 10, height: 20)
+//                    Spacer()
+//                        .frame(width: 10, height: 20)
                     
                     ZStack {
                         RoundedRectangle(cornerRadius: 10)
@@ -46,8 +46,8 @@ struct dayRectangleView: View {
                             .frame(width: 30, height: 30)
                     }
                     
-                    Spacer()
-                        .frame(width: 10, height: 20)
+//                    Spacer()
+//                        .frame(width: 10, height: 20)
                 }
             }
         }

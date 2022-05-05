@@ -1,30 +1,30 @@
+////
+////  LoginView.swift
+////  ActivityRecommender
+////
+////  Created by Kim, Che-Pill on 2022/05/05.
+////
 //
-//  LoginView.swift
-//  ActivityRecommender
+//import Foundation
+//import SwiftUI
 //
-//  Created by Kim, Che-Pill on 2022/05/05.
+//struct LoginView: View {
+//    var body: some View {
+//        @State var userId: String = "garlicvread"
+//        @State var userPassword: String = "rkfflrqmfpem"
+//        
+//        VStack {
+//            TextField ("ID", text: $userId)
+//            
+//            SecureField("PASSWORD", text: $userPassword)
+//        }
+//    }
+//}
 //
-
-import Foundation
-import SwiftUI
-
-struct LoginView: View {
-    var body: some View {
-        @State var userId: String = "garlicvread"
-        @State var userPassword: String = "rkfflrqmfpem"
-        
-        VStack {
-            TextField ("ID", text: $userId)
-            
-            SecureField("PASSWORD", text: $userPassword)
-        }
-    }
-}
-
-
-struct LoginView_previews: PreviewProvider {
-    static var previews: some View {
-        LoginView()
-            .previewDevice("iPhone 13 Pro")
-    }
-}
+//
+//struct LoginView_previews: PreviewProvider {
+//    static var previews: some View {
+//        LoginView()
+//            .previewDevice("iPhone 13 Pro")
+//    }
+//}

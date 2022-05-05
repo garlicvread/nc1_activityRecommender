@@ -12,18 +12,35 @@ struct calendarDayView: View {
     let dayList = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"]
     let columnsLayout = Array(repeating: GridItem(), count: 7)
     
+    let dateArr = Array(1...7*9)
+    let calendarLayout = Array(repeating: GridItem(), count: 7)
+    
     var body: some View {
-        HStack {
-            LazyVGrid (columns: columnsLayout, spacing: 10) {
-                ForEach (dayList, id: \.self) {i in
-                    HStack {
-                        Text(i)
-                            .font(.system(size: 15, weight: .light, design: .rounded))
+        VStack {
+            HStack {
+                LazyVGrid (columns: columnsLayout, spacing: 10) {
+                    ForEach (dayList, id: \.self) {i in
+                        HStack {
+                            Text(i)
+                                .font(.system(size: 15, weight: .light, design: .rounded))
+                        }
+                        .frame(width: 40, height: 20)
                     }
-                    .frame(width: 40, height: 20)
                 }
+                .frame(width: 300, height: 20)
             }
-            .frame(width: 300, height: 20)
+            
+            HStack {
+                LazyVGrid (columns: calendarLayout, spacing: 5) {
+                    ForEach (dateArr, id: \.self) {i in
+                        HStack {
+                            dayRectangleView()
+                        }
+                    }
+                }
+                .frame(width: 300)
+            }
+            
         }
     }
 }

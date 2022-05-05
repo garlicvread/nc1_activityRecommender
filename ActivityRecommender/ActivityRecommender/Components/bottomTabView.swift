@@ -26,7 +26,7 @@ struct bottomTabView: View {
                     
                 }
             
-            Text("SKILLS")
+            selectSkillMainView()
                 .badge(0)
                 .tabItem {
                     Image(systemName: "person.2.wave.2")
@@ -40,7 +40,7 @@ struct bottomTabView: View {
                     Text("My Learning")
                 }
             
-            Text("MY INFO")
+            myInfoView()
                 .badge(0)
                 .tabItem {
                     Image(systemName: "person")
