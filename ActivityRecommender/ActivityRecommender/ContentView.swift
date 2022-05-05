@@ -14,7 +14,7 @@ struct ContentView: View {
     
     var body: some View {
 //        if (session.isAuth) {
-            HomeView()
+            bottomTabView()
 //        } else {
 //            Text("LoginView here.")
 //            loginView()

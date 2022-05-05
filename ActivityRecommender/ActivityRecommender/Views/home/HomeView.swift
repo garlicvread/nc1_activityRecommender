@@ -84,13 +84,13 @@ struct HomeView: View {
                 Spacer()
                     .frame(width: 100, height: 50)
                 
-                calendarDayView()
+                learningHitView()
                 
                 Spacer()
                     .frame(width: 100, height: 20)
             }
             
-            bottomTabView()
+//            bottomTabView()
         }
     }
 }

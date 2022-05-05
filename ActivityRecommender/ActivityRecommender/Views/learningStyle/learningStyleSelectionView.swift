@@ -36,6 +36,7 @@ struct learningStyleSelctionView: View {
                     .frame(width: 20, height: 20)
                 
                 Text("What is your favorite learning style?")
+                    .font(.system(size: 17, weight: .light, design: .rounded))
                 
                 Spacer()
             }
@@ -45,6 +46,7 @@ struct learningStyleSelctionView: View {
                     .frame(width: 20, height: 20)
                 
                 Text("Alone, or in group?")
+                    .font(.system(size: 17, weight: .light, design: .rounded))
                 
                 Spacer()
             }
