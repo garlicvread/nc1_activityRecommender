@@ -40,7 +40,6 @@ struct learningHitView: View {
                 }
                 .frame(width: 300)
             }
-            
         }
     }
 }
