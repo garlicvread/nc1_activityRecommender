@@ -13,6 +13,8 @@
 		9D02466528221C9A0030D1FD /* currenLevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D02466428221C9A0030D1FD /* currenLevelView.swift */; };
 		9D67F6A928226E9E004B2C2A /* learningStyleSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D67F6A828226E9E004B2C2A /* learningStyleSelectionView.swift */; };
 		9D935FF22824335F00E27B9C /* myInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D935FF12824335F00E27B9C /* myInfoView.swift */; };
+		9D952DC62824C55500100FC0 /* boardMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D952DC52824C55500100FC0 /* boardMainView.swift */; };
+		9D952DC82824C5C000100FC0 /* detailedItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D952DC72824C5C000100FC0 /* detailedItemView.swift */; };
 		9D9DE825281A6DC90043DA0B /* ActivityRecommenderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9DE824281A6DC90043DA0B /* ActivityRecommenderApp.swift */; };
 		9D9DE827281A6DC90043DA0B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9DE826281A6DC90043DA0B /* ContentView.swift */; };
 		9D9DE829281A6DCC0043DA0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D9DE828281A6DCC0043DA0B /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 		9D02466428221C9A0030D1FD /* currenLevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = currenLevelView.swift; sourceTree = "<group>"; };
 		9D67F6A828226E9E004B2C2A /* learningStyleSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learningStyleSelectionView.swift; sourceTree = "<group>"; };
 		9D935FF12824335F00E27B9C /* myInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myInfoView.swift; sourceTree = "<group>"; };
+		9D952DC52824C55500100FC0 /* boardMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = boardMainView.swift; sourceTree = "<group>"; };
+		9D952DC72824C5C000100FC0 /* detailedItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailedItemView.swift; sourceTree = "<group>"; };
 		9D9DE821281A6DC90043DA0B /* ActivityRecommender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActivityRecommender.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D9DE824281A6DC90043DA0B /* ActivityRecommenderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityRecommenderApp.swift; sourceTree = "<group>"; };
 		9D9DE826281A6DC90043DA0B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -63,15 +67,10 @@
 		9D00AFED281A75E6000DF378 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9D952DC42824C53E00100FC0 /* board */,
 				9DD32DB72823BA17008A2B50 /* Account */,
 				9D67F6A728226E76004B2C2A /* learningStyle */,
-				9D9DE83D281A6EF50043DA0B /* editInfo */,
-				9D9DE83C281A6EE70043DA0B /* myLearning */,
-				9D9DE83B281A6EE20043DA0B /* chat */,
-				9D9DE83A281A6ED60043DA0B /* board */,
 				9D9DE839281A6ED00043DA0B /* home */,
-				9D9DE838281A6EAA0043DA0B /* inGroupActivityRecommendation */,
-				9D9DE836281A6E950043DA0B /* aloneActivityRecommendation */,
 				9D9DE834281A6E5C0043DA0B /* currentLevel */,
 				9D9DE833281A6E4A0043DA0B /* selectSkill */,
 			);
@@ -94,6 +93,15 @@
 				9D67F6A828226E9E004B2C2A /* learningStyleSelectionView.swift */,
 			);
 			path = learningStyle;
+			sourceTree = "<group>";
+		};
+		9D952DC42824C53E00100FC0 /* board */ = {
+			isa = PBXGroup;
+			children = (
+				9D952DC52824C55500100FC0 /* boardMainView.swift */,
+				9D952DC72824C5C000100FC0 /* detailedItemView.swift */,
+			);
+			path = board;
 			sourceTree = "<group>";
 		};
 		9D9DE818281A6DC90043DA0B = {
@@ -150,20 +158,6 @@
 			path = currentLevel;
 			sourceTree = "<group>";
 		};
-		9D9DE836281A6E950043DA0B /* aloneActivityRecommendation */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = aloneActivityRecommendation;
-			sourceTree = "<group>";
-		};
-		9D9DE838281A6EAA0043DA0B /* inGroupActivityRecommendation */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = inGroupActivityRecommendation;
-			sourceTree = "<group>";
-		};
 		9D9DE839281A6ED00043DA0B /* home */ = {
 			isa = PBXGroup;
 			children = (
@@ -172,34 +166,6 @@
 				9DD8986B282410D800EDF6D7 /* learningHitView.swift */,
 			);
 			path = home;
-			sourceTree = "<group>";
-		};
-		9D9DE83A281A6ED60043DA0B /* board */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = board;
-			sourceTree = "<group>";
-		};
-		9D9DE83B281A6EE20043DA0B /* chat */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = chat;
-			sourceTree = "<group>";
-		};
-		9D9DE83C281A6EE70043DA0B /* myLearning */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = myLearning;
-			sourceTree = "<group>";
-		};
-		9D9DE83D281A6EF50043DA0B /* editInfo */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = editInfo;
 			sourceTree = "<group>";
 		};
 		9DD32DB02823B1E3008A2B50 /* Models */ = {
@@ -297,8 +263,10 @@
 				9D9DE827281A6DC90043DA0B /* ContentView.swift in Sources */,
 				9D67F6A928226E9E004B2C2A /* learningStyleSelectionView.swift in Sources */,
 				9D02466528221C9A0030D1FD /* currenLevelView.swift in Sources */,
+				9D952DC62824C55500100FC0 /* boardMainView.swift in Sources */,
 				9D9DE825281A6DC90043DA0B /* ActivityRecommenderApp.swift in Sources */,
 				9D00AFF0281A7A12000DF378 /* buttonView.swift in Sources */,
+				9D952DC82824C5C000100FC0 /* detailedItemView.swift in Sources */,
 				9DD32DB92823BA28008A2B50 /* LoginView.swift in Sources */,
 				9DEAE9AA2823C70A00F380A1 /* dayRectangleView.swift in Sources */,
 				9D9DE83F281A6F2D0043DA0B /* selectSkillMainView.swift in Sources */,

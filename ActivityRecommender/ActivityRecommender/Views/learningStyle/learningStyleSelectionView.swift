@@ -65,6 +65,16 @@ struct learningStyleSelctionView: View {
             }
             
             Spacer()
+            
+            HStack {
+                Spacer()
+                
+                nextButtonView()
+                
+                Spacer()
+                    .frame(width: 20, height: 20)
+            }
+
         }
     }
 }

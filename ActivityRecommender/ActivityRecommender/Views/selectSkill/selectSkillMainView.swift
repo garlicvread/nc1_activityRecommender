@@ -40,6 +40,16 @@ struct selectSkillMainView: View {
             buttonView()
             
             Spacer()
+            
+            HStack {
+                Spacer()
+                
+                nextButtonView()
+                
+                Spacer()
+                    .frame(width: 20, height: 20)
+            }
+
         }
     }
 }
