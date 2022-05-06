@@ -67,6 +67,7 @@
 		9D00AFED281A75E6000DF378 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9DB07ABC2824D0FF000692F1 /* learningCalendar */,
 				9D952DC42824C53E00100FC0 /* board */,
 				9DD32DB72823BA17008A2B50 /* Account */,
 				9D67F6A728226E76004B2C2A /* learningStyle */,
@@ -162,10 +163,17 @@
 			isa = PBXGroup;
 			children = (
 				9DD32DB52823B5CA008A2B50 /* HomeView.swift */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		9DB07ABC2824D0FF000692F1 /* learningCalendar */ = {
+			isa = PBXGroup;
+			children = (
 				9DEAE9A92823C70A00F380A1 /* dayRectangleView.swift */,
 				9DD8986B282410D800EDF6D7 /* learningHitView.swift */,
 			);
-			path = home;
+			path = learningCalendar;
 			sourceTree = "<group>";
 		};
 		9DD32DB02823B1E3008A2B50 /* Models */ = {

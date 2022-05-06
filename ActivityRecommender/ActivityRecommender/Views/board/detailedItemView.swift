@@ -10,13 +10,24 @@ import SwiftUI
 
 struct detailedItemView: View {
     var body: some View {
-        VStack {
-            Text("sdf")
+        ZStack {
+            RoundedRectangle(cornerRadius: 20)
+                .fill(Color.white)
+                .frame(width: 350, height: 80)
             
-            Spacer()
-                .frame(width: 100, height: 20)
+            RoundedRectangle(cornerRadius: 20)
+                .stroke(.gray)
+                .frame(width: 350, height: 80)
             
-            Text("sdfsdf")
+            VStack {
+                Text("sdf")
+                
+                Spacer()
+                    .frame(width: 100, height: 20)
+                
+                Text("sdfsdf")
+            }
+
         }
     }
 }
