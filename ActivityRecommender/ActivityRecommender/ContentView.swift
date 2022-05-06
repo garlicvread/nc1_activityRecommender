@@ -8,10 +8,6 @@
 import SwiftUI
 
 struct ContentView: View {
-//    @EnvironmentObject var session: Session
-//
-//    @ViewBuilder
-    
     var body: some View {
 //        if (session.isAuth) {
             bottomTabView()

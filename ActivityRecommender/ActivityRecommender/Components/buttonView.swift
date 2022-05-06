@@ -11,7 +11,7 @@ import SwiftUI
 struct buttonView: View {
     let columnLayout = Array(repeating: GridItem(), count: 2)
     let skillsArr = ["Reading", "Writing", "Speaking", "Listening"]
-//    var count = 0
+    var selection = false
     
     var body: some View {
         LazyVGrid(columns: columnLayout, spacing: 20) {

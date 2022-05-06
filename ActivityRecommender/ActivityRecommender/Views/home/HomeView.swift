@@ -18,8 +18,10 @@ struct HomeView: View {
                     .frame(width: 20, height: 20)
                 
                 Text("User Name: ")
+                    .font(.system(size: 20, weight: .light, design: .rounded))
                 
                 Text("Raymond Kim")
+                    .font(.system(size: 20, weight: .light, design: .rounded))
                 
                 Spacer()
             }
@@ -32,16 +34,22 @@ struct HomeView: View {
                     .frame(width: 20, height: 20)
                 
                 Text("Most Targetted Skill: ")
+                    .font(.system(size: 20, weight: .light, design: .rounded))
                 
                 Text("Writing")
+                    .font(.system(size: 20, weight: .light, design: .rounded))
                 
                 Text(",")
+                    .font(.system(size: 20, weight: .light, design: .rounded))
                 
                 Text("1")
+                    .font(.system(size: 20, weight: .light, design: .rounded))
                 
                 Text("/")
+                    .font(.system(size: 20, weight: .light, design: .rounded))
                 
                 Text("10")
+                    .font(.system(size: 20, weight: .light, design: .rounded))
                 
                 Spacer()
             }
@@ -55,6 +63,7 @@ struct HomeView: View {
                         .frame(width: 20, height: 20)
                     
                     Text("During Last 2 Months:")
+                        .font(.system(size: 20, weight: .light, design: .rounded))
                     
                     Spacer()
                 }
@@ -64,8 +73,9 @@ struct HomeView: View {
                         .frame(width: 20, height: 20)
                     
                     Text("  - Current Learning Streaks: ")
-                    
+                        .font(.system(size: 17, weight: .light, design: .rounded))
                     Text("4")
+                        .font(.system(size: 17, weight: .light, design: .rounded))
                     
                     Spacer()
                 }
@@ -75,8 +85,10 @@ struct HomeView: View {
                         .frame(width: 20, height: 20)
                     
                     Text("  - Longest Learning Streaks: ")
+                        .font(.system(size: 17, weight: .light, design: .rounded))
                     
                     Text("12")
+                        .font(.system(size: 17, weight: .light, design: .rounded))
                     
                     Spacer()
                 }
@@ -89,8 +101,6 @@ struct HomeView: View {
                 Spacer()
                     .frame(width: 100, height: 20)
             }
-            
-//            bottomTabView()
         }
     }
 }

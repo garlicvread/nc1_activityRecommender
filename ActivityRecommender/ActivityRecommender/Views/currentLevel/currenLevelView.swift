@@ -37,6 +37,7 @@ struct currentLevelView: View {
                         .frame(width: 20, height: 20)
                     
                     Text("Please select your proficiency level of English for the skill you chose on the previous screen.")
+                        .font(.system(size: 20, weight: .light, design: .rounded))
                     
                     Spacer()
                         .frame(width: 20, height: 20)
@@ -62,8 +63,6 @@ struct currentLevelView: View {
                 Spacer()
                     .frame(width: 20, height: 20)
             }
-            
-//            bottomTabView()
         }
     }
 }
